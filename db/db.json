@@ -1,0 +1,25 @@
+{
+    "cuchillos": [
+      {
+        "id": 1,
+        "nombre": "Cuchillo Chef",
+        "tipo": "chef",
+        "tipoDeFilo": "liso",
+        "materialHoja": "acero inoxidable",
+        "materialMango": "madera",
+        "longitudHoja": 20,
+        "longitudTotal": 35
+      },
+      {
+        "id": 2,
+        "nombre": "Cuchillo Santoku",
+        "tipo": "santoku",
+        "tipoDeFilo": "dentado",
+        "materialHoja": "acero al carbono",
+        "materialMango": "metal",
+        "longitudHoja": 18,
+        "longitudTotal": 32
+      }
+    ]
+  }
+  

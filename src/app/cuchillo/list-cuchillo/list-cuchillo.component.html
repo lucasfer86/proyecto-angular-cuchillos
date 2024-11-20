@@ -1,0 +1,13 @@
+<section>
+    <h2>Añadir Cuchillo:</h2>
+    <app-add-cuchillo (emitirCucchillo)="addList($event)"></app-add-cuchillo>
+
+    <ul>
+       @for (item of listaDecuchillos; track $index) {
+          <li>Id: {{item.id}}  -  Cuchillo: {{item.nombre}}  </li>
+    }
+    </ul>
+</section>
+
+
+
